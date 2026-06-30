@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palak Clothe Store | Jeans</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="antialiased" data-category="jeans">
+    <header class="sticky top-0 z-50 border-b border-stone-200 bg-gradient-to-r from-amber-50 via-white to-stone-100 shadow-sm backdrop-blur">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="index.html" class="flex items-center gap-3">
+          <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-amber-500 to-rose-500 text-lg font-bold text-white shadow-lg">PC</div>
+          <span class="text-2xl font-semibold tracking-[0.2em] text-stone-800">Palak <span class="font-black text-amber-600">Clothe</span> Store</span>
+        </a>
+        <div class="flex items-center gap-3 text-sm font-medium text-stone-600">
+          <a href="index.html" class="rounded-full px-3 py-2 transition hover:bg-stone-900 hover:text-white">Home</a>
+          <a href="tshirts.html" class="rounded-full px-3 py-2 transition hover:bg-stone-900 hover:text-white">T-shirts</a>
+          <a href="jeans.html" class="rounded-full bg-stone-900 px-3 py-2 text-white">Jeans</a>
+          <a href="shirts.html" class="rounded-full px-3 py-2 transition hover:bg-stone-900 hover:text-white">Shirts</a>
+          <a href="trousers.html" class="rounded-full px-3 py-2 transition hover:bg-stone-900 hover:text-white">Trousers</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="mb-8">
+        <p class="text-sm uppercase tracking-[0.3em] text-stone-500">Collection</p>
+        <h1 class="text-4xl font-semibold text-stone-800">Jeans</h1>
+        <p class="mt-3 max-w-2xl text-stone-600">Modern denim silhouettes designed for comfort and everyday confidence.</p>
+      </div>
+      <div id="category-products" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </main>
+
+    <script src="category-page.js"></script>
+  </body>
+</html>
